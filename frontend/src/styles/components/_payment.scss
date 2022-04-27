@@ -1,0 +1,23 @@
+.payment-options {
+  display: flex;
+  flex-flow: column;
+  margin: 2em auto;
+  width: 100%;
+
+  .payment-options-item {
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: row wrap;
+
+    input[type="radio"] {
+      height: 20px;
+      width: 20px;
+    }
+
+    label {
+      font-weight: 500;
+      margin: 0;
+      margin-left: 1em; 
+    }
+  }
+}
